@@ -1,0 +1,27 @@
+<style>
+  #output {
+    height: 400px;
+    max-height: 400px;
+    vertical-align: bottom;
+    font-family: Courier;
+    width: 100%;
+    overflow-y: scroll;
+    background-color: black;
+    color: yellow;
+    padding: 0px 10px;
+  }
+
+  #output p {
+    margin-bottom: 0px;
+  }
+</style>
+
+<div class="row">
+  <div class="col-lg-12">
+    <div id="output">
+      <p>Shared shell v0.1</p>
+    </div>
+    <input id="input" class="form-control" />
+    <div id="status"></div>
+  </div>
+</div>
